@@ -16,8 +16,9 @@
 
 @media screen and (max-width: 756px) and (min-width: 0px) {
     .OrgSection{
-        width: 90vw;
+        width: 80vw;
         justify-content: space-between;
-        padding: 0 1rem;
+        padding: 0 .5rem;
+        gap: 0;
     }
 }
