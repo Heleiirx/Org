@@ -16,3 +16,16 @@
     padding: 0px 15px;
     width: 3rem;
 }
+
+
+@media screen and (max-width: 756px) and (min-width: 0px) {
+    .footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 30vh;
+        justify-content: space-evenly;
+    }
+    .footer>img{
+        order: 3;
+    }
+}

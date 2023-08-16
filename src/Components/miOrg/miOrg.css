@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    gap: 2rem;
     align-items: center;
 }
 .title{
@@ -12,6 +13,11 @@
     border-bottom: solid 4px #6278f7;
 }
 
-.OrgSection img{
-    margin-left: 10rem;
+
+@media screen and (max-width: 756px) and (min-width: 0px) {
+    .OrgSection{
+        width: 90vw;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
 }

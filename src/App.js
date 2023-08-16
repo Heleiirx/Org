@@ -8,7 +8,7 @@ import Team from './Components/team';
 import Footer from './Components/footer';
 
 function App() {
-  const [showForm, setShowForm] = useState(true)
+  const [showForm, setShowForm] = useState(false)
   const [members, setMembers] = useState([{  
     id: uuid(),
     equipo: "Fukurodani",
